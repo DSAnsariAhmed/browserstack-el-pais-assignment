@@ -4,8 +4,8 @@ import threading
 import time
 
 # Replace with your credentials
-# USERNAME = "YOUR_USERNAME"
-# ACCESS_KEY = "YOUR_ACCESS_KEY"
+USERNAME = "YOUR_USERNAME"
+ACCESS_KEY = "YOUR_ACCESS_KEY"
 
 BROWSERSTACK_URL = f"https://{USERNAME}:{ACCESS_KEY}@hub-cloud.browserstack.com/wd/hub"
 
@@ -95,4 +95,5 @@ for t in threads:
     t.join()
 
 print("All 5 BrowserStack sessions executed successfully.")
+
 
