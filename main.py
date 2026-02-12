@@ -16,7 +16,7 @@ def translate_text(text):
         "q": [text]
     }
     headers = {
-        "x-rapidapi-key": "128fad34e6msh8c3dd09d5e13a12p101d95jsnb8a085b657ec",
+        "x-rapidapi-key": "YOUR_ACCESS_KEY",
         "x-rapidapi-host": "rapid-translate-multi-traduction.p.rapidapi.com",
         "Content-Type": "application/json"
     }
@@ -144,4 +144,5 @@ for word, count in word_counts.items():
         found = True
 
 if not found:
+
     print("No words repeated more than twice.")
